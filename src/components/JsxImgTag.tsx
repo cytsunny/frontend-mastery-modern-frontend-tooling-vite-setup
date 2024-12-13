@@ -1,3 +1,7 @@
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
-export default defineComponent({ render() { return <img src="" alt="my logo"></img> }})
+export default defineComponent({
+  render() {
+    return <img src="" alt="my logo"></img>;
+  },
+});
