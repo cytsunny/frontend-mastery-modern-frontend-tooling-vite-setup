@@ -3,6 +3,7 @@ import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
+import jsxA11y from "eslint-plugin-jsx-a11y";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -16,4 +17,5 @@ export default [
     languageOptions: { parserOptions: { parser: tseslint.parser } },
   },
   eslintPluginPrettierRecommended,
+  jsxA11y.flatConfigs.recommended,
 ];
