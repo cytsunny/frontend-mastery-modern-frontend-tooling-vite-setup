@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { defineProps } from 'vue'
-
-defineProps()
+import JsxImgTag from './JsxImgTag'
 
 function greet() {
   alert("Hello");
@@ -14,6 +12,6 @@ function greet() {
     <h3>Hello There! What is your name?</h3>
     <input></input>
     <button @click="greet">Say Hello</button>
-    <img src="" alt="my logo"></img>
+    <JsxImgTag />
   </div>
 </template>
