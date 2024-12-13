@@ -1,5 +1,6 @@
 # Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a repository for bonus task 5 of Modern Frontend Tooling Action item under Frontend Mastery
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Notes
+1. Babel is not directly used, as Vite has [out of the box support for some browser already](https://vite.dev/guide/build.html#browser-compatibility). To support even older browser (e.g. IE 11 as in the original webpack version), an official package [@vitejs/plugin-legacy](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy) is used instead.
