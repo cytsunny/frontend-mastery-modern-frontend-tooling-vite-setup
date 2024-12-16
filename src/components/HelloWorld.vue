@@ -8,9 +8,9 @@ function greet() {
 
 <template>
   <div>
+    <JsxImgTag />
     <h3>Hello There! What is your name?</h3>
     <input />
     <button @click="greet">Say Hello</button>
-    <JsxImgTag />
   </div>
 </template>
